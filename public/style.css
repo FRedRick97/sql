@@ -1,0 +1,41 @@
+body,html {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 24%);
+}
+/* table, th, td {
+    border: 1px solid black;
+} */
+
+th {
+    padding: 7px 0;
+    background-color: #ff6347;
+    color: #fff;
+    font-family: 'Arvo', Roboto;
+    font-weight: 700;
+}
+
+tr:nth-child(even) {
+    background-color: hsl(0, 0%, 90%);
+}
+
+td {
+    padding: 5px 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+}
+
+#container {
+    overflow-x: auto;
+}

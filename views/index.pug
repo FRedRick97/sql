@@ -1,0 +1,19 @@
+html
+    head
+        title='Company DB'
+        link(rel='stylesheet', href='/assets/style.css' type="text/css")
+        link(rel='stylesheet', href="https://fonts.googleapis.com/css?family=Arvo:400,700|Nunito+Sans:400,600|Ubuntu:400,700")
+    body
+        h1='Person List'
+        div#container
+            table
+                tr
+                    th= 'ID'
+                    th= 'Name'
+                    th= 'Address'
+                for person in personList
+                    tr
+                        td= person.id
+                        td= person.name
+                        td= person.address
+
