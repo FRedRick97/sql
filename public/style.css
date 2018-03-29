@@ -20,7 +20,7 @@ h1 {
 
 th {
     padding: 7px 0;
-    background-color: #ff6347;
+    background-color: rgba(255, 99, 71, 0.9);
     color: #fff;
     font-family: 'Arvo', Roboto;
     font-weight: 700;
